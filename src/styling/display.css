@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    .cardsContainer {
+        flex-direction: column;
+        height: 280px;
+    }
+    .phoneIconDesk {
+        display: none;
+    }
+    .searchForm input {
+        flex: 1;
+        margin: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .phoneIconMobile {
+        display: flex;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+}
