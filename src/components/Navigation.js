@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from 'react-bootstrap';
-import { TelephoneForwardFill } from 'react-bootstrap-icons';
+import { TelephoneForwardFill, Search } from 'react-bootstrap-icons';
 
 export const Navigation = () => {
     return (
@@ -8,18 +8,17 @@ export const Navigation = () => {
                 <div className="container">
                     <Navbar.Brand href="#home">Quanta-Demo</Navbar.Brand>
                     <a href="tel:123-456-7890" className="phoneIconMobile"><Button variant="success"><TelephoneForwardFill /></Button></a>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <div className="search">
+                        <input type="text" placeholder="search" />
+                        <div className="symbol">
+                            <div className="lens">
+                                <Search />
+                            </div>
+                        </div>
+                    </div>
+                        
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
                         </Nav>
                         <Form inline className="searchForm">
                             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
