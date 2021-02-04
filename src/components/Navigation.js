@@ -6,7 +6,7 @@ export const Navigation = () => {
     return (
             <Navbar bg="dark" variant="dark" expand="lg">
                 <div className="container">
-                    <Navbar.Brand href="#home">Quanta-Demo</Navbar.Brand>
+                    <Navbar.Brand href="#home">Quanta</Navbar.Brand>
                     <a href="tel:123-456-7890" className="phoneIconMobile"><Button variant="success"><TelephoneForwardFill /></Button></a>
                     <div className="search">
                         <input type="text" placeholder="search" />

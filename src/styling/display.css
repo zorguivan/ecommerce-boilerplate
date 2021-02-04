@@ -22,3 +22,9 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 417px) {
+    .search input[type=text]:focus~.symbol .phoneIconMobile {
+        display: none;
+    }
+}

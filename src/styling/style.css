@@ -172,7 +172,7 @@ footer.nb-footer .copyright p {
     /* --text-color: #414856; */
     --primary-color: #28a745;
     --border-radius: 5px;
-    --width: 190px;
+    --width: 130px;
     --height: 39px;
     background: var(--background);
     width: auto;
@@ -191,7 +191,7 @@ footer.nb-footer .copyright p {
     position: relative;
     width: var(--height);
     height: var(--height);
-    font: 400 16px "Varela Round", sans-serif;
+    font: 400 14px "Varela Round", sans-serif;
     color: var(--text-color);
     border: 0;
     box-sizing: border-box;
