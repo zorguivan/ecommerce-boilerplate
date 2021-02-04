@@ -58,7 +58,7 @@ export const Home = (props) => {
 			}
 			
 			<Breaker />
-			<Contact />
+			{/* <Contact /> */}
 			<Footer />
         </>
     )
